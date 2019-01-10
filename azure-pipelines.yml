@@ -1,0 +1,10 @@
+---
+pool:
+  vmImage: 'win1803'
+
+steps:
+  - script: |
+      Write-Host "Hello, Olive!"
+      docker --version
+
+
